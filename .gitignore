@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Data/model binairies
+**/*.pth
+**/data/**
+**/imagenet_samples/**
+
 # Distribution / packaging
 .Python
 build/
